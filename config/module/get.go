@@ -9,7 +9,7 @@ import (
 
 // GetMode is an enum that describes how modules are loaded.
 //
-// GetModeLoad says that modules will not be downloaded or updated, they will
+// GetModeNone says that modules will not be downloaded or updated, they will
 // only be loaded from the storage.
 //
 // GetModeGet says that modules can be initially downloaded if they don't
